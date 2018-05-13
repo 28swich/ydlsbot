@@ -1,7 +1,7 @@
 {
-  "name": "Telegram-Bot",
+  "name": "YDLS-Bot",
   "version": "1.0.0",
-  "description": "Bot)",
+  "description": "YDLS Bot)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
