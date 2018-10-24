@@ -28,15 +28,3 @@ bot.onText(/\/test/, (msg) => {
 	const resp = "It's Work!";
 	bot.sendMessage(chatId, resp);
 });
-
-// Text file
-var fs = require('fs');
-
-bot.onText(/\/todo/, (msg) => {
-	fs.readFile('todo.txt', 'utf8', function(err, data){
-		if (err) throw err;
-		const resp = 'To Do List:\n' + data;
-		bot.sendMessage(chatId, resp);
-	})
-});
-

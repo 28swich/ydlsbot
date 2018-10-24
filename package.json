@@ -9,7 +9,6 @@
   "author": "swich",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.15.0",
     "node-telegram-bot-api": "^0.27.1"
   }
 }
